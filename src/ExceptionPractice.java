@@ -1,6 +1,6 @@
 public class ExceptionPractice {
     public static void main(String[] args){
-        int result = 10;
+        int result1 = 10;
         try {
             int[] arr = new int[3];
             arr[5] = 10;
@@ -15,7 +15,7 @@ public class ExceptionPractice {
             System.out.println("Any other excetion");
         }
         finally {
-            System.out.println(result);
+            System.out.println(result1);
         }
 
     }
