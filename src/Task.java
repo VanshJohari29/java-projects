@@ -31,4 +31,8 @@ public class Task {
     public String getCreatedDate(){
         return  createdDate;
     }
+    @Override
+    public String toString(){
+        return "TASK[id=" + id + ", title=" + title + ", category=" + category + ", priority=" + priority + ", status=" + status + ", createdDate=" + createdDate + "]";
+    }
 }
