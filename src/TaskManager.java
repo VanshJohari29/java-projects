@@ -1,5 +1,5 @@
 import java.util.*;
-public class TaskManager {
+public abstract class TaskManager implements TaskOperations {
     private  ArrayList<Task> tasks;
     private ArrayList<Task> completedTasks;
     public TaskManager(){
