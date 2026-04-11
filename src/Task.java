@@ -31,6 +31,10 @@ public class Task {
     public String getCreatedDate(){
         return  createdDate;
     }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
     @Override
     public String toString(){
         return "TASK[id=" + id + ", title=" + title + ", category=" + category + ", priority=" + priority + ", status=" + status + ", createdDate=" + createdDate + "]";
