@@ -11,8 +11,9 @@ public class Main {
         tm.markAsDone(1);
         tm.deleteCompletedTasks();
 
-        tm.viewAllTasks();
+        tm.viewCompletedTasks();
 
+     
 
     }
 

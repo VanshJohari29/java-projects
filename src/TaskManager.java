@@ -1,8 +1,10 @@
 import java.util.*;
 public class TaskManager {
     private  ArrayList<Task> tasks;
+    private ArrayList<Task> completedTasks;
     public TaskManager(){
         tasks = new ArrayList<>();
+        completedTasks = new ArrayList<>();
     }
     public void addTask(int id , String title ,String category , String priority , String status , String createdDate){
         Task t = new Task(id,title,category,priority,status,createdDate);
@@ -39,6 +41,7 @@ public class TaskManager {
         while(it.hasNext()){
             Task i = it.next();
             if(i.getStatus().equals("Done")){
+                completedTasks.add(i);
                 it.remove();
             }
         }
@@ -49,6 +52,11 @@ public class TaskManager {
                 System.out.println(i);
                 System.out.println();
             }
+        }
+    }
+    public void viewCompletedTasks(){
+        for(Task i : completedTasks){
+            System.out.println(i);
         }
     }
 }
