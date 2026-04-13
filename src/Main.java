@@ -13,6 +13,8 @@ public class Main {
 
         tm.deleteCompletedTasks();
 
+        System.out.println();
+
         tm.viewCompletedTasks();
 
         ShoppingOperations shopping = (ShoppingOperations) tm;
