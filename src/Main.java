@@ -16,6 +16,7 @@ public class Main {
         System.out.println();
 
         tm.viewCompletedTasks();
+        System.out.println();
 
         ShoppingOperations shopping = (ShoppingOperations) tm;
         shopping.addBudget(500);
