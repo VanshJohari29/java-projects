@@ -13,7 +13,6 @@ public abstract class TaskManager implements TaskOperations {
     public void viewAllTasks(){
         for(Task i : tasks ){
             System.out.println(i);
-            System.out.println();
         }
     }
 
@@ -50,7 +49,6 @@ public abstract class TaskManager implements TaskOperations {
         for(Task i : tasks ){
             if(i.getCategory().equals(category)){
                 System.out.println(i);
-                System.out.println();
             }
         }
     }
