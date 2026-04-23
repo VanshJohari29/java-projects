@@ -13,7 +13,8 @@ public class Main {
 
         tm.deleteCompletedTasks();
 
-        
+        System.out.println();
+
 
         tm.viewCompletedTasks();
         System.out.println();
