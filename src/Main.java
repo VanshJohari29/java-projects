@@ -13,11 +13,11 @@ public class Main {
 
         tm.deleteCompletedTasks();
 
-        
+
 
 
         tm.viewCompletedTasks();
-        System.out.println();
+        
 
         tm.viewDeletedTasks();
 
