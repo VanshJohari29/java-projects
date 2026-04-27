@@ -12,9 +12,7 @@ public class Main {
         tm.markAsDone(1);
 
         tm.deleteCompletedTasks();
-
-        System.out.println();
-
+        
 
 
         tm.viewCompletedTasks();
