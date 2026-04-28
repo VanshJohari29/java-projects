@@ -12,7 +12,8 @@ public class Main {
         tm.markAsDone(1);
 
         tm.deleteCompletedTasks();
-        
+
+        System.out.println();
 
 
         tm.viewCompletedTasks();
@@ -21,6 +22,8 @@ public class Main {
 
 
         tm.viewDeletedTasks();
+
+        System.out.println();
 
         ShoppingOperations shopping = (ShoppingOperations) tm;
         shopping.addBudget(500);
