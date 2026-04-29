@@ -13,17 +13,17 @@ public class Main {
 
         tm.deleteCompletedTasks();
 
-        System.out.println();
+       
 
 
         tm.viewCompletedTasks();
 
-        System.out.println();
+
 
 
         tm.viewDeletedTasks();
 
-        System.out.println();
+
 
         ShoppingOperations shopping = (ShoppingOperations) tm;
         shopping.addBudget(500);
