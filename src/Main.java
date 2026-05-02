@@ -19,11 +19,11 @@ public class Main {
         tm.viewCompletedTasks();
 
 
-       
+       System.out.println();
 
 
         tm.viewDeletedTasks();
-
+        System.out.println();
 
 
         ShoppingOperations shopping = (ShoppingOperations) tm;
